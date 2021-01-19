@@ -1,0 +1,48 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%
+    background: #F1F1F1 ;
+}
+
+   canvas{
+   	border:  2px solid black;
+   	position: relative;
+   	left: 220px;
+   	top:80px;
+   	/*box-shadow: 5px 5px gray;*/
+   }
+
+#Simple-Paint{
+
+	color: black;
+	text-shadow: 2px 2px 4px black;
+	font-size:250%;
+	font-family: Comic Sans MS;
+	position: relative;
+	top: -440px;
+	left: 500px;
+}
+
+
+	#clear{
+    height: 23px;
+    font-family: Comic Sans MS;
+	  font-size: 15.5px;
+	  text-align: center;
+    border: 1px solid black;
+    background-color: white;
+    width: 50px;
+    float: right;
+    position: absolute;
+    right: 315px;
+    top: 535px;
+}
+
+   #clear:hover{
+    cursor: pointer;
+    background-color: rgba(0,0,2,.01);
+}
+
